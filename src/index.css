@@ -264,9 +264,9 @@ ul {
 }
 
 .section {
-  padding: 2rem 0;
+  padding: 0.5rem 0 0.7rem 0;
   width: 90vw;
-  max-width: var(--max-width);
+  /* max-width: var(--max-width); */
   margin: 0 auto;
 }
 
