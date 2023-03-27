@@ -1,36 +1,24 @@
 import { Grid, Box } from "@mui/material";
-
+import Barcode from "react-barcode";
 const form = () => {
+  const barcodeValue = "202300003269";
+  const barcodeStyle = {
+    width: "200px",
+    height: "100px",
+    // backgroundColor: "#fff",
+    // border: "1px solid #000",
+    // borderRadius: "5px",
+    // margin: "20px",
+    // display: "flex",
+    // alignItems: "center",
+    // justifyContent: "center",
+    // fontSize: "18px",
+    // fontWeight: "bold",
+  };
+
   return (
-    <div>
-      {/* <Grid container spacing={{ xs: 1.5, md: 2 }}>
-
-
-      </Grid> */}
-
-      <Box
-        sx={{
-          width: 816,
-          height: 1248,
-          backgroundColor: "lightgray",
-        }}
-      >
-        <Grid container spacing={{ xs: 1.5, md: 1 }}>
-          <Grid item xs={12} sm={6}>
-            <h3>
-              {" "}
-              Zank Pos <br /> Enterprises
-            </h3>
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            {" "}
-            <h6>
-              {" "}
-              Zank Pos <br /> Enterprises
-            </h6>
-          </Grid>
-        </Grid>
-      </Box>
+    <div style={barcodeStyle}>
+      <Barcode value={barcodeValue} />
     </div>
   );
 };
