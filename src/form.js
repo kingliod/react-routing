@@ -5,15 +5,6 @@ const form = () => {
   const barcodeStyle = {
     width: "200px",
     height: "100px",
-    // backgroundColor: "#fff",
-    // border: "1px solid #000",
-    // borderRadius: "5px",
-    // margin: "20px",
-    // display: "flex",
-    // alignItems: "center",
-    // justifyContent: "center",
-    // fontSize: "18px",
-    // fontWeight: "bold",
   };
 
   return (
