@@ -3,7 +3,6 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Stack from "@mui/material/Stack";
 import { styled } from "@mui/material/styles";
-import { display, margin } from "@mui/system";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -40,7 +39,7 @@ const Home = () => {
       <Box sx={{ flexGrow: 1 }}>
         <Grid2 container spacing={{ xs: 1 }}>
           <Grid2 item md={8} sm={12} xs={12}>
-            <Item>xs=8</Item>
+            <Item>JOHN LLYOD F. CRUZ</Item>
             <Stack
               direction={{ md: "row", xs: "column", sm: "row" }}
               width={"100%"}
